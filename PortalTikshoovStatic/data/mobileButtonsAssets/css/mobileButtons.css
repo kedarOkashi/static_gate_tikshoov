@@ -1,0 +1,46 @@
+a.mobileButton {
+	padding: 2px 5px;
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 5px !important;
+	text-align: center;
+}
+a.mobileButton i {
+	margin: 0 10px;
+	font-size: 40px;
+}
+a.mobileButton span,
+a.mobileButton i {
+	vertical-align: middle;
+}
+a.mobileButton:hover {
+	text-decoration: none;
+}
+a.mobileButton i:before {
+	width: 44px !important;
+	display: block;
+	text-align: center;
+}
+/* box mobile */
+.containerMobileBtn {
+	display: flex;
+	align-items: stretch;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+a.mobileButtonBox {
+	border: 1px solid white;
+	padding: 5px;
+	text-align: center;
+	flex-basis: 100%;
+}
+a.mobileButtonBox i {
+	font-size: 40px;
+	display: block;
+}
+/* END box mobile */
+@media (min-width: 768px) {
+	a.mobileButton { display: none; }
+	a.mobileButtonBox { display: none; }
+}

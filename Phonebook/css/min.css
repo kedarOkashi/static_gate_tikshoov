@@ -1,0 +1,83 @@
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15pt;
+            color: #647382;
+
+            direction: rtl;
+        }
+
+        p {
+            direction: rtl;
+        }
+
+        li {
+            direction: rtl;
+        }
+
+        .titleorange_center {
+            font-size: 26pt;
+            font-weight: bold;
+            color: #E08418;
+            text-align: center;
+            line-height: 26pt;
+        }
+
+        .hr {
+            height: 1px;
+            text-align: right;
+        }
+
+        .bg {
+            background-color: #ffffff;
+            box-shadow: 2px 2px 5px 5px rgba(100,100,100,.75);
+        }
+
+        .margin {
+            padding-top: 10px;
+        }
+
+        .textgray {
+            font-size: 12pt;
+            color: #7d8e9d;
+        }
+
+        .btn {
+            margin-top: 15px;
+            background: #EA935F;
+            background-image: -webkit-linear-gradient(top, #EA935F, #E88B54);
+            background-image: -moz-linear-gradient(top, #EA935F, #E88B54);
+            background-image: -ms-linear-gradient(top, #EA935F, #E88B54);
+            background-image: -o-linear-gradient(top, #EA935F, #E88B54);
+            background-image: linear-gradient(to bottom, #EA935F, #E88B54);
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 18px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 12pt;
+            padding: 10px 70px 10px 70px;
+            text-decoration: none;
+            min-width: 80px;
+        }
+
+            .btn:hover {
+                background: #fc963c;
+                background-image: -webkit-linear-gradient(top, #fc963c, #d98134);
+                background-image: -moz-linear-gradient(top, #fc963c, #d98134);
+                background-image: -ms-linear-gradient(top, #fc963c, #d98134);
+                background-image: -o-linear-gradient(top, #fc963c, #d98134);
+                background-image: linear-gradient(to bottom, #fc963c, #d98134);
+                text-decoration: none;
+            }
+        .fontSize20 {
+                font-size: 14pt;
+                border-bottom-color: #002966 !important;
+        }
+        .centerDiv {
+
+        }
+
+.col-lg-8{
+    width: 66.6666% !important;
+}
